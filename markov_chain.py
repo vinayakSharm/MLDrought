@@ -1,7 +1,7 @@
 import csv
 import numpy as np
 
-with open('test_timeseries/test_timeseries.csv') as csv_file:
+with open('train_timeseries/train_timeseries.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 0
     last = 0
